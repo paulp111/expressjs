@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+header {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        align-items: center;
+        border-bottom: 2px solid black;
+        padding: 1rem;
+        ul {
+            display: flex;
+            justify-content: center;
+            li {
+                margin-right: 1rem;
+                list-style-type: none;
+            }
+        }
+    }
+}
+main {
+    padding: 2rem;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    height: 50px;
+    align-items: center;
+    ul {
+        display: flex;
+        li{
+        list-style-type: none;
+        margin-left: 1rem;
+    }
+    }
+}
